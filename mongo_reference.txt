@@ -1,0 +1,4 @@
+
+//clearing all the bills of a particular user
+
+db.users.update({name:"netal"},{$set:{billsInvolved:[]}})

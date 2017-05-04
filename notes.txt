@@ -1,0 +1,10 @@
+1)  when you add a friend, it has to be mutual.
+
+
+
+2) for each participant in the bill
+ 2.1) find the participant in user table
+ 2.2) for each owee in the bill
+    2.2.1) if the owee and particpant are the same, ignore
+    2.2.2) else if the owee and participant are not same
+     find the owee in user table, update the friends     
